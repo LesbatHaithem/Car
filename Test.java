@@ -1,10 +1,14 @@
 public class Test {
 
     public static void main(String[] args) {
-        Conducteur conducteur = new Conducteur();
-        R4 r4 = new R4();
+        Conducteur c = new Conducteur();
+        Automobile a,b ;
+       // R4 r4 = new R4();
+       a= new R4();
+       b= new BMW();
         
-        conducteur.demarrerVehicule(r4);
-        conducteur.arreterVehicule(r4);
-    }
+        c.demarrerVehicule(a);
+        c.arreterVehicule(a );
+        c.demarrerVehicule(b);     
+        c.arreterVehicule(b );}
 }
